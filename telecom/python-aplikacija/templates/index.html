@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <p> Ovo je index.html </p>
+    <p>{{ varijabla1 }}</p>
+<ol>
+    {% for x in proizvodi %}
+
+        <li>{{ x }}</li>
+
+    {% endfor %}
+</ol>
+{% endblock content %}
